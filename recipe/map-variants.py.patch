@@ -1,8 +1,0 @@
---- rules/compat/map-variants.py.orig	2020-02-03 15:07:43.955390897 -0500
-+++ rules/compat/map-variants.py	2020-02-03 15:07:56.583302278 -0500
-@@ -1,4 +1,4 @@
--#!/usr/bin/python3
-+#!/usr/bin/env python3
- 
- import argparse
- import re
