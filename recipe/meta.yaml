@@ -10,7 +10,7 @@ source:
   sha256: 095a524f7b633ed257617202d06c9c71fe020c8897b106cf0dcdd0c6e8b797d4
   patches:
     # use conda's Python
-    - map-variants.py.patch
+    #- map-variants.py.patch
 
 build:
   number: 0
