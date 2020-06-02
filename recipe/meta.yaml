@@ -1,5 +1,5 @@
 {% set name = "xkeyboard-config" %}
-{% set version = "2.29" %}
+{% set version = "2.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,7 @@ package:
 
 source:
   url: http://www.x.org/releases/individual/data/{{ name }}/{{ name }}-{{ version }}.tar.bz2
-  sha256: 1d4175278bf06000683656763a8b1d3282c61a314b6db41260c8efe92d621802
-  patches:
-    # use conda's Python
-    - map-variants.py.patch
+  sha256: 095a524f7b633ed257617202d06c9c71fe020c8897b106cf0dcdd0c6e8b797d4
 
 build:
   number: 0
@@ -40,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: COPYING
-  summary: 'The non-arch keyboard configuration database for X Windows'
+  summary: The non-arch keyboard configuration database for X Windows
   description: |
     The goal is to provide the consistent, well-structured, frequently
     released open source of X keyboard configuration data for X Window
