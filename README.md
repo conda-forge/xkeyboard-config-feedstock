@@ -5,9 +5,13 @@ Home: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xkeyboard-config-feedstock/blob/master/LICENSE.txt)
 
 Summary: The non-arch keyboard configuration database for X Windows
+
+Development: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/
+
+Documentation: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/
 
 The goal is to provide the consistent, well-structured, frequently
 released open source of X keyboard configuration data for X Window
