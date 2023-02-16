@@ -1,7 +1,9 @@
 #!/bin/bash
 set -ex
 
-./configure --prefix="${PREFIX}"
-make
-make install
-make check
+meson setup builddir --prefix="${PREFIX}"
+
+cd builddir
+meson compile
+meson test
+meson  install
