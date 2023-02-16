@@ -17,10 +17,6 @@ requirements:
     - {{ compiler('c') }}
     - meson
     - make
-    # the following are expected in the build environment for some reason
-    # - intltool
-    # - perl-xml-parser
-    # - libxslt
   host:
     - xorg-xproto
     - xorg-libx11
