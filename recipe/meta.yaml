@@ -1,13 +1,12 @@
-{% set name = "xkeyboard-config" %}
-{% set version = "2.31" %}
+{% set version = "2.38" %}
 
 package:
-  name: {{ name|lower }}
+  name: xkeyboard-config
   version: {{ version }}
 
 source:
-  url: http://www.x.org/releases/individual/data/{{ name }}/{{ name }}-{{ version }}.tar.bz2
-  sha256: da44181f2c8828789c720decf7d13acb3c3950e2a040af5132f50f04bb6aada3
+  url: http://www.x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-{{ version }}.tar.xz
+  sha256: 0690a91bab86b18868f3eee6d41e9ec4ce6894f655443d490a2184bfac56c872
 
 build:
   number: 0
@@ -49,3 +48,4 @@ about:
 extra:
   recipe-maintainers:
     - scopatz
+    - hmaarrfk
