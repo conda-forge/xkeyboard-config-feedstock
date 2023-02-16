@@ -17,12 +17,10 @@ requirements:
     - {{ compiler('c') }}
     - meson
     - make
-    # - autoconf
-    # - pkg-config
     # the following are expected in the build environment for some reason
-    - intltool
-    - perl-xml-parser
-    - libxslt
+    # - intltool
+    # - perl-xml-parser
+    # - libxslt
   host:
     - xorg-xproto
     - xorg-libx11
