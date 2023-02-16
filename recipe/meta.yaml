@@ -16,10 +16,9 @@ requirements:
   build:
     - {{ compiler('c') }}
     - meson
-    # - ninja
     - make
-    - autoconf
-    - pkg-config
+    # - autoconf
+    # - pkg-config
     # the following are expected in the build environment for some reason
     - intltool
     - perl-xml-parser
