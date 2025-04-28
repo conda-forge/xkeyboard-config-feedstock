@@ -1,4 +1,4 @@
-{% set version = "2.43" %}
+{% set version = "2.44" %}
 
 package:
   name: xkeyboard-config
@@ -6,7 +6,7 @@ package:
 
 source:
   url: http://www.x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-{{ version }}.tar.xz
-  sha256: c810f362c82a834ee89da81e34cd1452c99789339f46f6037f4b9e227dd06c01
+  sha256: 54d2c33eeebb031d48fa590c543e54c9bcbd0f00386ebc6489b2f47a0da4342a
 
 build:
   number: 0
@@ -15,11 +15,11 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-    - {{ stdlib("c") }}
+    - {{ stdlib('c') }}
     - meson
     - make
   host:
-    - xorg-xproto
+    - xorg-xorgproto
     - xorg-libx11
 
 test:
