@@ -5,5 +5,7 @@ meson setup builddir --prefix="${PREFIX}"
 
 cd builddir
 meson compile
-meson test
-meson  install
+if [[ "${CONDA_BUILD_CROSS_COMPILATION:-}" != "1" || "${CROSSCOMPILING_EMULATOR}" != "" ]]; then
+  meson test
+fi
+meson install
