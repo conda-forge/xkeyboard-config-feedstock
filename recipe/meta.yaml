@@ -2,14 +2,14 @@
 
 package:
   name: xkeyboard-config
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: http://www.x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-{{ version }}.tar.xz
   sha256: e59984416a72d58b46a52bfec1b1361aa7d84354628227ee2783626c7a6db6b6
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -18,6 +18,8 @@ requirements:
     - {{ stdlib('c') }}
     - meson
     - make
+    - gawk
+    - libxslt
   host:
     - xorg-xorgproto
     - xorg-libx11
