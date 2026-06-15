@@ -18,7 +18,6 @@ released open source of X keyboard configuration data for X Window
 System implementations (free, open source and commercial).
 The project is targeted to XKB-based systems.
 
-
 Current build status
 ====================
 
